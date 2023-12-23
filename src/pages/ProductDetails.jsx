@@ -37,7 +37,7 @@ const ProductDetails = () => {
                             backgroundColor: c,
                           }}
                           key={c}
-                          className={`border-2 border-gray-300 ml-1 bg-[${c}] rounded-full w-6 h-6 focus:outline-none`}
+                          className={`border-2 border-gray-300 ml-1 rounded-full w-6 h-6 focus:outline-none`}
                         ></button>
                       ))
                     : ""}
